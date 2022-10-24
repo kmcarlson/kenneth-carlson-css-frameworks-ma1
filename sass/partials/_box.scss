@@ -1,0 +1,27 @@
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    margin: 2rem 1rem;
+    grid-gap: 2rem;
+    justify-content: center;
+
+    &__item {
+        border-radius: 15px;
+        background: #F4F3EE;
+        border: none;
+        position: relative;
+        padding-top: 100%;
+
+        &--border { 
+            @extend .boxes__item;
+            background: #fff;
+            border: 2px solid #C32C72;
+        }
+
+        &--fil {
+            @extend .boxes__item;
+            background: #C32C72;
+            border: 2px solid #fff;
+        }
+    }
+}

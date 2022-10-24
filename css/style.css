@@ -13,22 +13,34 @@ h1 {
   font-weight: bold;
 }
 
-.boxes {
-  justify-content: center;
-  justify-content: space-around;
-  padding: 2rem;
-}
-
-.box {
-  height: 200px;
-  width: 200px;
-  border: 2rem;
-  justify-content: center;
-  background-color: red;
-  padding: 2rem;
+nav {
+  background-color: aquamarine;
 }
 
 footer {
   padding: 2rem;
   background-color: white;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px);
+  margin: 2rem 1rem;
+  grid-gap: 2rem;
+  justify-content: center;
+}
+.boxes__item, .boxes__item--fil, .boxes__item--border {
+  border-radius: 15px;
+  background: #F4F3EE;
+  border: none;
+  position: relative;
+  padding-top: 100%;
+}
+.boxes__item--border {
+  background: #fff;
+  border: 2px solid #C32C72;
+}
+.boxes__item--fil {
+  background: #C32C72;
+  border: 2px solid #fff;
 }/*# sourceMappingURL=style.css.map */
