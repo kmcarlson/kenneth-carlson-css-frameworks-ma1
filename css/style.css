@@ -1,9 +1,14 @@
 header {
-  background-color: #F4F3EE;
+  background-color: #f4f3ee;
 }
 
 body {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
+}
+
+main {
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -13,13 +18,21 @@ h1 {
   font-weight: bold;
 }
 
-nav {
-  background-color: aquamarine;
+.main {
+  color: #ca4b85 !important;
 }
 
 footer {
   padding: 2rem;
   background-color: white;
+}
+
+a {
+  color: #8d8d8d;
+}
+
+p {
+  color: #8d8d8d;
 }
 
 .boxes {
@@ -31,16 +44,16 @@ footer {
 }
 .boxes__item, .boxes__item--fil, .boxes__item--border {
   border-radius: 15px;
-  background: #F4F3EE;
+  background: #f4f3ee;
   border: none;
   position: relative;
   padding-top: 100%;
 }
 .boxes__item--border {
+  border: 2px solid #c32c72;
   background: #fff;
-  border: 2px solid #C32C72;
 }
 .boxes__item--fil {
-  background: #C32C72;
   border: 2px solid #fff;
+  background: #c32c72;
 }/*# sourceMappingURL=style.css.map */
