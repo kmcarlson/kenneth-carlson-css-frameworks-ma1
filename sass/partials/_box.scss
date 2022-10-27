@@ -7,21 +7,21 @@
 
   &__item {
     border-radius: 15px;
-    background: #f4f3ee;
+    background: $offwhite;
     border: none;
     position: relative;
     padding-top: 100%;
 
     &--border {
       @extend .boxes__item;
-      border: 2px solid #c32c72;
-      background: #fff;
+      border: 2px solid $pink;
+      background: $white;
     }
 
     &--fil {
       @extend .boxes__item;
-      border: 2px solid #fff;
-      background: #c32c72;
+      border: 2px solid $white;
+      background: $pink;
     }
   }
 }
