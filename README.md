@@ -20,7 +20,7 @@ Add, commit and push all your code to this repo.
 
 Submit the repo link.
 
-## Link to repo
+## Link to site
 
 ```bash
 https://taupe-taiyaki-94b91d.netlify.app/
